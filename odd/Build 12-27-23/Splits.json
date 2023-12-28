@@ -1,0 +1,179 @@
+[
+                {
+                    "SplitName": "Start Split",
+                    "condition": {
+                        "Name": "WasCutsceneActive",
+                        "Path": "Director/Cutscene4",
+                        "Property": "activeSelf",
+                        "Value": "true",
+                        "ValueType": "bool",
+                        "Comparison": "=="
+                    },
+                    "shouldSplitHere": "true"
+                },
+                {
+                    "SplitName": "DropCutscene-Pre",
+                    "condition": {
+                        "Name": "WasCutsceneActive",
+                        "Path": "Director/Cutscene6",
+                        "Property": "activeSelf",
+                        "Value": "true",
+                        "ValueType": "bool",
+                        "Comparison": "=="
+                    },
+                    "shouldSplitHere": "false",
+                    "isFinalSplit": "false"
+                },
+                {
+                    "SplitName": "Drop",
+                    "condition": {
+                        "Name": "CutsceneNotActive",
+                        "Path": "Director/Cutscene6",
+                        "Property": "activeSelf",
+                        "Value": "false",
+                        "ValueType": "bool",
+                        "Comparison": "=="
+                    },
+                    "shouldSplitHere": "true"
+                },
+                {
+                    "SplitName": "Death Warp",
+                    "bounds": {
+                        "center": "4785.309 10513.42 911.0422",
+                        "size": "25.7 4 25.7"
+                     },
+                     "shouldSplitHere": "true"
+                },
+                {
+                    "SplitName":"E-Unit 1 Start",
+                    "bounds": {
+                        "center":"5130.498 10775.17 529.3284",
+                        "size": "110 5 110"
+                    },
+                    "shouldSplitHere": "true"
+                },
+                {
+                    "SplitName":"E-Unit 2 Start",
+                    "bounds": {
+                        "center":"3762.142 10674.57 903.3202",
+                        "size": "110 5 110"
+                    },
+                    "shouldSplitHere": "true"
+                },
+                {
+                    "SplitName":"Monk Start",
+                    "bounds": {
+                        "center":"4655.712 10381.37 2576.124",
+                        "size": "7 15 7"
+                    },
+                    "shouldSplitHere": "true"
+                },
+                {
+                    "SplitName":"Deathwarp 2",
+                    "bounds": {
+                        "center":"4785.309 10513.42 911.0422",
+                        "size": "25.7 4 25.7"
+                    },
+                    "shouldSplitHere": "true"
+                },
+                {
+                    "SplitName": "PowerCutscene-Pre",
+                    "condition": {
+                        "Name": "WasCutsceneActive",
+                        "Path": "Director/Cutscene0",
+                        "Property": "activeSelf",
+                        "Value": "true",
+                        "ValueType": "bool",
+                        "Comparison": "=="
+                    },
+                    "shouldSplitHere": "false",
+                    "isFinalSplit": "false"
+                },
+                {
+                    "SplitName": "Power",
+                    "condition": {
+                        "Name": "CutsceneNotActive",
+                        "Path": "Director/Cutscene0",
+                        "Property": "activeSelf",
+                        "Value": "false",
+                        "ValueType": "bool",
+                        "Comparison": "=="
+                    },
+                    "shouldSplitHere": "true"
+                },
+                {
+                    "SplitName": "SinCutscene-Pre",
+                    "condition": {
+                        "Name": "WasCutsceneActive",
+                        "Path": "Director/Cutscene2",
+                        "Property": "activeSelf",
+                        "Value": "true",
+                        "ValueType": "bool",
+                        "Comparison": "=="
+                    },
+                    "shouldSplitHere": "false",
+                    "isFinalSplit": "false"
+                },
+                {
+                    "SplitName": "Sin Start",
+                    "condition": {
+                        "Name": "CutsceneNotActive",
+                        "Path": "Director/Cutscene2",
+                        "Property": "activeSelf",
+                        "Value": "false",
+                        "ValueType": "bool",
+                        "Comparison": "=="
+                    },
+                    "shouldSplitHere": "true"
+                },
+                {
+                    "SplitName": "SinEndingCutscene-Pre",
+                    "condition": {
+                        "Name": "WasCutsceneActive",
+                        "Path": "Director/Cutscene1",
+                        "Property": "activeSelf",
+                        "Value": "true",
+                        "ValueType": "bool",
+                        "Comparison": "=="
+                    },
+                    "shouldSplitHere": "false",
+                    "isFinalSplit": "false"
+                },
+                {
+                    "SplitName": "Eri Start",
+                    "condition": {
+                        "Name": "CutsceneNotActive",
+                        "Path": "Director/Cutscene1",
+                        "Property": "activeSelf",
+                        "Value": "false",
+                        "ValueType": "bool",
+                        "Comparison": "=="
+                    },
+                    "shouldSplitHere": "true"
+                },
+                {
+                    "SplitName": "EriFistCutscene-Pre",
+                    "condition": {
+                        "Name": "WasCutsceneActive",
+                        "Path": "Director/Cutscene3",
+                        "Property": "activeSelf",
+                        "Value": "true",
+                        "ValueType": "bool",
+                        "Comparison": "=="
+                    },
+                    "shouldSplitHere": "false",
+                    "isFinalSplit": "false"
+                },
+                {
+                    "SplitName": "GG",
+                    "condition": {
+                        "Name": "CutsceneNotActive",
+                        "Path": "Director/Cutscene3",
+                        "Property": "activeSelf",
+                        "Value": "true",
+                        "ValueType": "bool",
+                        "Comparison": "=="
+                    },
+                    "shouldSplitHere": "true"
+                }
+            ]
